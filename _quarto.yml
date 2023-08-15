@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+anchor-sections: false
+link-external-newwindow: true
+link-external-icon: true
+reference-location: margin
+
+format:
+  html:
+    theme: custom.scss
+
+website:
+  favicon: favicon.ico
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    title: workshop
+    logo: resources\logo.png
+  page-footer:
+    right: "Egbert &copy; 2023"
+    center:
+      - icon: envelope-fill
+        href: mailto:w.brett.egbert@gmail.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/w-brett-egbert/
+      - icon: patch-check-fill
+        href: https://www.credly.com/users/brett-egbert
+      - icon: github
+        href: https://github.com/crossinguard

@@ -1,0 +1,61 @@
+/*-- scss:defaults --*/
+
+// Color
+$primary: #202a25 !default;
+$primary-accent: #0dab76 !default;
+$secondary: #dcf763 !default;
+$secondary-accent: #f2fcc5 !default;
+// $success: $green !default;
+// $info: $cyan !default;
+// $warning: $yellow !default;
+// $danger: $red !default;
+$light: #f5f0f6 !default;
+$dark: #222222 !default;
+
+// Theme
+$body-bg: $dark;
+$footer-bg: $primary;
+$body-color: $light;
+$link-color: $secondary;
+$code-color: $primary-accent;
+
+// Font
+$web-font-path: "https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans:wght@100;400;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+$font-family-sans-serif: "Fira Sans", sans-serif;
+$font-family-monospace: "Fira Code", monospace;
+
+/*-- scss:rules --*/
+
+em {
+  color: $light;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote {
+  border-left: 0.25rem solid $primary-accent;
+  border-radius: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $secondary-accent;
+  font-family: $font-family-monospace;
+}
+
+// footnote (margin)
+[id^="fn"] {
+  color: $secondary-accent;
+  font-weight: 100;
+}

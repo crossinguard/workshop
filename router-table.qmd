@@ -1,0 +1,51 @@
+---
+title: Router Table Build
+toc: true
+toc-depth: 3
+toc-location: left
+---
+
+> *adapted from*: [Katz-Moses router table](https://kmtools.com/products/router-table-full-build-plans)
+
+## Top & Fence
+
+### MATERIALS
+
+| Piece | # | Material | Height | Width |
+|-|-|-|-|-|
+| `top` | 2 | plywood, 19 mm^[3/4"] | 600 mm | 900 mm |
+| `fence-back` | 3 | plywood, 19 mm | 80 mm | 750 mm
+| `fence-bottom` | 1 | plywood, 19 mm | 150 mm | 750 mm |
+
+<!-- ![](resources\router-top-fence.png) -->
+
+### STEP A | Prep
+
+1. Glue the `fence-back` *x3* pieces together. Let dry.
+2. Glue the `top` *x2* pieces together. Let dry.
+
+
+### STEP B | Template
+
+3. Use the paper template provided with the router plate to make a wood template. Position the wood template centered on the prepared `top`.
+4. Trace the wood template opening onto the `top` and remove.
+
+### STEP C | Inner Opening
+
+5. Drill a hole in the center of the `top` in the traced opening.
+6. Starting from the center hole, use a jigsaw to rough out the opening.^[attempt to get as close as possible to the traced opening without touching]
+7. Replace the wood template and use a router with a template bit to clean up the opening
+8. Remove the template
+
+### STEP D | Outter Opening
+
+9. Set the router depth to just past the thickness of the router plate.^[leveling pins will bring this flush]
+10. Use a router with a rabbet bit to route out the pocket for the router plate.
+
+### STEP E | Channel
+
+11. Route out the dovetail tracks in the `top` positioned 19 mm away from both edges of the router plate
+
+### STEP F | Fence
+
+*coming soon*
